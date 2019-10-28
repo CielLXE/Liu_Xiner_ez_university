@@ -5,6 +5,12 @@ from django.db import migrations, models
 
 YEARS = [
     {
+        "year": 9999,
+    },
+    {
+        "year": 2017,
+    },
+    {
         "year": 2018,
     },
     {
@@ -12,9 +18,6 @@ YEARS = [
     },
     {
         "year": 2020,
-    },
-    {
-        "year": 9999,
     },
 ]
 

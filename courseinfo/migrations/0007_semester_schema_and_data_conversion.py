@@ -131,13 +131,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='semester',
             name='year',
-            field=models.ForeignKey(to='courseinfo.year', on_delete=models.PROTECT, default=9999)
+            field=models.ForeignKey(to='courseinfo.year', on_delete=models.PROTECT, default=1)
         ),
 
         migrations.AddField(
             model_name='semester',
             name='period',
-            field=models.ForeignKey(to='courseinfo.period', on_delete=models.PROTECT, default=9999)
+            field=models.ForeignKey(to='courseinfo.period', on_delete=models.PROTECT, default=1)
         ),
 
         migrations.RunPython(

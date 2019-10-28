@@ -5,6 +5,10 @@ from django.db import migrations, models
 
 PERIODS = [
     {
+        "period_sequence": 9999,
+        "period_name": "TemporaryValue",
+    },
+    {
         "period_sequence": 10,
         "period_name": "Spring",
     },
@@ -15,10 +19,6 @@ PERIODS = [
     {
         "period_sequence": 30,
         "period_name": "Fall",
-    },
-    {
-        "period_sequence": 9999,
-        "period_name": "TemporaryValue",
     },
 ]
 
